@@ -1,0 +1,64 @@
+body {
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.749), rgba(0, 0, 0, 0.358)), 
+      url('images/noaa-IaRgDQiF36Q-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    image-rendering: pixelated; /* Hace que la imagen se vea pixelada */
+  }
+  
+
+label{
+    font-weight: bold;
+    color: #000000;
+}
+
+#uno{
+    background-color: rgba(109, 109, 109, 0.83);
+    height: 70%;
+    border-radius: 10px;
+    width: 26%;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 37%;
+    margin-right: 37%;
+    padding-top: 20px;
+    border: 4px solid #000000; 
+    justify-content: center;
+
+}
+
+#logo1{
+    
+    margin-top: -40px;
+    margin-left: 46%;
+    position: absolute;
+    border: 4px solid #000000; 
+    background-image: url(images/logo.jpg);
+    width: 110px;
+    border-radius: 100%;
+    height: 110px;
+}
+
+h1{
+    color: #000000;
+    
+    font-weight: bold;
+    
+}
+#enter{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #000000;
+    width: 60%;
+    height: 50px;
+    font-weight: bold;
+    background-color: #25bbf1;
+    border-radius: 10px;
+    border: 2.2px solid #000000; 
+    
+}

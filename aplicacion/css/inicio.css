@@ -1,0 +1,107 @@
+body {
+    background-color: #0d0c0cf5;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    image-rendering: pixelated; /* Hace que la imagen se vea pixelada */
+  }
+  
+#header{
+    background-color: #3a3a3a;
+    border: 3px solid #000000; 
+    position: fixed;
+    width: 60%;
+    margin-top: 10px;
+    height: 80px;
+    margin-right: 18%;
+    margin-left: 18%;
+    border-radius: 20px;
+    padding-left: 40px;
+    align-content: center;
+    font-family: sans-serif;
+    color: #25bbf1;
+}
+
+#volver{
+    margin-left: 80%;
+    position: absolute;
+    color: #000000;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #25bbf1;
+    border-radius: 10px;
+    border: 2.2px solid #000000; 
+    cursor: pointer;
+    margin-top: -65px;
+
+
+}
+
+#fondoimg{
+    width: 90%;
+    height: 35%;
+    margin-left: 5%;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+    border: 3px solid #000000; 
+}
+#cerrar{
+    margin-left: 87%;
+    
+    margin-top: -65px;
+    position: absolute;
+    color: #000000;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #25bbf1;
+    border-radius: 10px;
+    border: 2.2px solid #000000; 
+    cursor: pointer;
+
+}
+
+#dos{
+    margin-top: 20px;
+    align-content: center;
+    border: 3px solid #000000; 
+    background-color: #3a3a3a;
+    width: 100%;
+    height: 40%;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    color: #25bbf1;
+    
+}
+
+#menu{
+    width: 100px;
+    height: 100px;
+
+}
+
+#botonmenu{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #25bbf1;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 3px solid #000000; 
+}
+
+#listaem{
+    margin-top: 30px;
+    padding-top:20px;
+    font-family: sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 15px;
+    background-color: #25bbf1;
+    width: 40%;
+    margin-left: 20%;
+}
